@@ -1,0 +1,57 @@
+html {
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+}
+
+body {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.main_paragraph {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 20%;
+  font-size: 20px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  border: 1px solid white;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 5px 10px;
+}
+
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.twitter_container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.twitter_container a {
+  font-size: 30px;
+}
+
+.twitter_container a:visited {
+  color: white;
+}
+
+.twitter_container img {
+  width: auto;
+  height: 100px;
+}
